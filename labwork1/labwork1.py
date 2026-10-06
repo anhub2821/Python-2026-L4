@@ -1,5 +1,4 @@
 import numpy
-import re
 
 def p1():
     a = float(input("Enter circle radius?"))
@@ -17,7 +16,7 @@ def p3():
 
     if a<=1:
          print(a, "is a NOT prime number")
-         return 
+         return
 
     for i in range( 2, a):
             if a % i == 0:
@@ -97,7 +96,7 @@ def p11():
      ay = float(input("ay="))
 
      bx= float(input("bx="))
-     by= float(input("by=")) 
+     by= float(input("by="))
 
      print(((ax-ay)**2 +(bx-by)**2)**0.5)
 
@@ -112,15 +111,15 @@ def p12():
         else:
             print("* " + "  " * (n - 2) + "*")
 
-#p1()
-#p2()
-#p3()
-#p4()
-#p5()
-#p6()
-#p7()
-#p8()
-#p9()
-#p10()
-#p11()
-#p12()
+p1()
+p2()
+p3()
+p4()
+p5()
+p6()
+p7()
+p8()
+p9()
+p10()
+p11()
+p12()
